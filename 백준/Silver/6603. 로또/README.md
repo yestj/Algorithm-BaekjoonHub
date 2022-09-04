@@ -1,3 +1,6 @@
+# Review
+- stringbuilder 사용하여 while문 출력시, 기존 sb에 축적된 내용을 리셋해주지 않으면 오류 발생! 
+
 # [Silver II] 로또 - 6603 
 
 [문제 링크](https://www.acmicpc.net/problem/6603) 
