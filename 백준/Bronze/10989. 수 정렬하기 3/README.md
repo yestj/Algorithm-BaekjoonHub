@@ -1,3 +1,7 @@
+# Review
+- 가볍게 풀려고 했으나, 시간초과/메모리초과 지옥에 빠진 문제
+- 완전히 같은 방법이나 Scanner를 쓰냐 BufferedReader를 쓰냐에 따라 채점결과가 달라져서 그닥 좋은 문제는 아닌 것 같다.
+
 # [Bronze I] 수 정렬하기 3 - 10989 
 
 [문제 링크](https://www.acmicpc.net/problem/10989) 
