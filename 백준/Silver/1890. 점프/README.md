@@ -1,3 +1,7 @@
+# Review
+- 처음에 단순 재귀로 풀려다가 시간초과 발생
+- DP 완전탐색을 이용하여 한 번씩만 탐색하고 종료할 수 있도록 수정
+
 # [Silver I] 점프 - 1890 
 
 [문제 링크](https://www.acmicpc.net/problem/1890) 
