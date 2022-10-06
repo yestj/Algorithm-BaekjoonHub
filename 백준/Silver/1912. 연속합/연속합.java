@@ -19,25 +19,7 @@ public class Main {
 		int res = arr[0];
 
 		for (int i = 1; i < N; i++) {
-			// 음수를 만날 경우.
-			if (arr[i] < 0) {
-				if (arr[i] > res) {
-					res = arr[i];
-					continue;
-				} else if (arr[i] + dp[i - 1] > 0) {
-					dp[i] = arr[i] + dp[i - 1];
-				} else {
-					continue;
-				}
-
-			} // 양수를 만나면 더해줌.
-			else {
-				if (dp[i - 1] > 0) {
-					dp[i] = arr[i] + dp[i - 1];
-				} else {
-					dp[i] = arr[i];
-				}
-			}
+			dp[i] = Math.max(dp[i - 1] + arr[i], arr[i]);
 			res = Math.max(res, dp[i]);
 		}
 
